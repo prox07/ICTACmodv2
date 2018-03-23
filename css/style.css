@@ -936,7 +936,7 @@ nav ul li a:focus {
 	color: #202020;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .powered-by .logos img.round {
     height: 158px;
     padding: 16px;
