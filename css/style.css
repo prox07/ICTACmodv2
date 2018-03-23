@@ -949,13 +949,13 @@ nav ul li a:focus {
 }
 @media screen and (max-width: 1200px) {
   .powered-by .logos img.round {
-    height: 148px;
+    height: 130px;
     padding: 15px;
   }
   .sid1{
 	display: inline-block;
 	vertical-align: top;	
-	padding: 0% 1%;
+	padding: 0% 0%;
 }
 }
 
