@@ -924,37 +924,32 @@ nav ul li a:focus {
   height: 106px;
   padding: 11px;
 }
-@media screen and (min-width: 768px) {
-  .powered-by .logos img.round {
-    height: 158px;
-    padding: 16px;
-  }
-  .sid1{
-	display: inline-block;
-	vertical-align: top;
-	padding: 0% 8%;
-}
-}
-@media screen and (max-width: 768px) {
-  .powered-by .logos img.round {
-    height: 158px;
-    padding: 16px;
-  }
-  .sid1{
-	display: inline-block;
-	vertical-align: top;
-}
-}
 
 .sid1{
 	display: inline-block;
 	vertical-align: top;
+	padding: 0% 8%;
 }
 .sid1 p{
 	padding: 0px;
 	line-height: 20px;
 	color: #202020;
 }
+
+@media (max-width: 768px) {
+  .powered-by .logos img.round {
+    height: 158px;
+    padding: 16px;
+  }
+  .sid1{
+	display: inline-block;
+	vertical-align: top;	
+	padding: 0% 0%;
+}
+}
+
+
+
 /*
 .dropbtn {
     padding: 16px;
