@@ -897,7 +897,7 @@ nav ul li a:focus {
   text-align: center;
 }
 .powered-by .prose {
-  max-width: 545px;
+  max-width: 555px;
   text-align: center;
   margin: 0 auto;
 }
@@ -910,15 +910,20 @@ nav ul li a:focus {
 }
 @media screen and (min-width: 1020px) {
   .powered-by .logos img {
-    height: 150px;
-    padding: 20px;
+    height: 110px;
+    padding: 10px;
   }
+  .sid1{
+	display: inline-block;
+	vertical-align: top;
+	padding:0% 8%;
+}
 }
 .powered-by .logos img.round {
   height: 106px;
   padding: 11px;
 }
-@media screen and (min-width: 1020px) {
+@media screen and (min-width: 746px) {
   .powered-by .logos img.round {
     height: 158px;
     padding: 16px;
