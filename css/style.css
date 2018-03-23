@@ -947,6 +947,17 @@ nav ul li a:focus {
 	padding: 0% 2%;
 }
 }
+@media screen and (max-width: 1200px) {
+  .powered-by .logos img.round {
+    height: 148px;
+    padding: 15px;
+  }
+  .sid1{
+	display: inline-block;
+	vertical-align: top;	
+	padding: 0% 2%;
+}
+}
 
 
 
